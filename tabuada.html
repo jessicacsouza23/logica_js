@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+    // pulando duas linhas
+    	document.write("<br><br>");
+	}
+
+	function mostra(frase) {
+
+	    document.write("<big>" + frase + "</big>");
+	    pulaLinha();
+	}
+	mostra("A tabuada do 7:")
+	for(var multiplicador = 1; multiplicador <= 10; multiplicador++){
+	
+		mostra("7 x " + multiplicador + " = " + (multiplicador * 7));
+	}
+
+</script>

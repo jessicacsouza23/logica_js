@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+    // pulando duas linhas
+    	document.write("<br>");
+	}
+
+	function mostra(frase) {
+
+	    document.write("<big>" + frase + "</big>");
+	    pulaLinha();
+	}
+
+	function sorteia(n){
+
+	   return Math.round(Math.random() * n);
+
+	}
+
+	for(linha = 1; linha <= 3; linha++){
+		for (var i = 1; i <= 10; i++) {
+			document.write("*");
+
+		}
+		pulaLinha();
+	}	
+</script>
